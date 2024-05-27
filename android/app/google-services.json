@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627701601620",
+    "project_id": "imageuploads-8c3ae",
+    "storage_bucket": "imageuploads-8c3ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627701601620:android:17ca17f81ceeaf7b2024c1",
+        "android_client_info": {
+          "package_name": "com.example.imagepick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxUm43PBOmYw4_dLcr1fli-kkvCRxqkrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

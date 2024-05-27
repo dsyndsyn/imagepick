@@ -1,14 +1,14 @@
 import 'dart:typed_data';
 
-//import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:imagepick/utils.dart';
-//import 'package:imagepick/resources/add_data.dart';
+import 'package:imagepick/resources/add_data.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  //await Firebase.initializeApp();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     String name = nameController.text;
     String bio = bioController.text;
 
-    //String resp = await StoreData().saveData(name: name, bio: bio, file: _image!);
+    String resp = await StoreData().saveData(name: name, bio: bio, file: _image!);
   }
 
   @override
